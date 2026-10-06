@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Patricia Pricken — visual artist working across painting, photography and video.">
+  <title>Patricia Pricken — Visual Artist</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="wordmark" href="#top">Patricia Pricken</a>
+    <nav aria-label="Main navigation">
+      <a href="#works">Works</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Visual Artist</p>
+        <h1>Intuition,<br>space &amp;<br>questioning.</h1>
+        <p class="intro">Painting, photography and video as ways of looking, researching and asking.</p>
+        <a class="scroll-link" href="#works">View works <span>↓</span></a>
+      </div>
+      <div class="hero-image">
+        <img src="images/annee-2015.jpg" alt="Minimalist painting in deep red with blue vertical lines">
+      </div>
+    </section>
+
+    <section class="statement" id="about">
+      <p class="section-label">01 — About</p>
+      <div class="statement-grid">
+        <h2>A visual practice built from observation and thought.</h2>
+        <div>
+          <p>Patricia Pricken is a visual artist exploring different possibilities, materials and techniques.</p>
+          <p>Her paintings are minimalist, while photography and video serve as tools for visual research and observation.</p>
+          <p>Her practice is intuitive, yet grounded in profound philosophical questions. Through experimentation and contemplation, she explores perception, presence, space and the possibilities of visual language.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="works" id="works">
+      <div class="works-heading">
+        <p class="section-label">02 — Selected works</p>
+        <p class="muted">Painting / Photography / Visual research</p>
+      </div>
+
+      <div class="gallery">
+        <figure class="work work-large">
+          <button class="image-button" data-full="images/annee-2015.jpg" aria-label="Open artwork">
+            <img src="images/annee-2015.jpg" alt="Two minimalist red paintings with blue vertical lines" loading="lazy">
+          </button>
+          <figcaption><span>Untitled</span><span>Painting · 2015</span></figcaption>
+        </figure>
+
+        <figure class="work work-wide">
+          <button class="image-button" data-full="images/IMG_4592 copy.jpg" aria-label="Open artwork">
+            <img src="images/work-02.jpg" alt="Black and white photographic study repeated in a grid" loading="lazy">
+          </button>
+          <figcaption><span>Visual Research</span><span>Photography</span></figcaption>
+        </figure>
+
+        <figure class="work">
+          <button class="image-button" data-full="images/work-03.jpg" aria-label="Open artwork">
+            <img src="images/work-03.jpg" alt="Two minimalist panels in burgundy and green crossed by fine lines" loading="lazy">
+          </button>
+          <figcaption><span>Untitled</span><span>Painting</span></figcaption>
+        </figure>
+
+        <figure class="work">
+          <button class="image-button" data-full="images/work-04.png" aria-label="Open artwork">
+            <img src="images/work-04.png" alt="Turquoise minimalist painting with a fine vertical white line" loading="lazy">
+          </button>
+          <figcaption><span>Untitled</span><span>Painting</span></figcaption>
+        </figure>
+
+        <figure class="work">
+          <button class="image-button" data-full="images/work-05.jpg" aria-label="Open artwork">
+            <img src="images/work-05.jpg" alt="Turquoise minimalist painting with an angled fine white line" loading="lazy">
+          </button>
+          <figcaption><span>Untitled</span><span>Painting</span></figcaption>
+        </figure>
+
+        <figure class="work work-wide">
+          <button class="image-button" data-full="images/work-06.jpg" aria-label="Open artwork">
+            <img src="images/work-06.jpg" alt="Turquoise and brown abstract painting with vertical white marks" loading="lazy">
+          </button>
+          <figcaption><span>Untitled</span><span>Painting</span></figcaption>
+        </figure>
+
+        <figure class="work">
+          <button class="image-button" data-full="images/work-07.jpg" aria-label="Open artwork">
+            <img src="images/work-07.jpg" alt="Two brown minimalist paintings with delicate white linear marks" loading="lazy">
+          </button>
+          <figcaption><span>Untitled</span><span>Painting</span></figcaption>
+        </figure>
+
+        <figure class="work work-wide">
+          <button class="image-button" data-full="images/lines-01.jpg" aria-label="Open artwork">
+            <img src="images/lines-01.jpg" alt="Paired turquoise and brown paintings crossed by fine lines" loading="lazy">
+          </button>
+          <figcaption><span>Lines</span><span>Painting</span></figcaption>
+        </figure>
+
+        <figure class="work work-wide">
+          <button class="image-button" data-full="images/take-corp-02.jpg" aria-label="Open artwork">
+            <img src="images/take-corp-02.jpg" alt="Black and white photographic study of the body and shadow" loading="lazy">
+          </button>
+          <figcaption><span>Visual Research</span><span>Photography</span></figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <p class="section-label">03 — Contact</p>
+      <div class="contact-grid">
+        <h2>For exhibitions,<br>collaborations<br>or enquiries.</h2>
+        <div>
+          <a class="email" href="mailto:contact_neuf@proton.me">contact_neuf@proton.me</a>
+          <p class="small">Patricia Pricken<br>Visual Artist</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>© Patricia Pricken</span>
+    <a href="#top">Back to top ↑</a>
+  </footer>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="close" aria-label="Close image">×</button>
+    <img id="lightbox-image" src="" alt="">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
